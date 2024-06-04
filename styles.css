@@ -380,6 +380,16 @@ footer a:hover {
         flex-direction: column;
     }
 
+    .header-content img {
+        width: 100%;
+        margin: 0;
+    }
+
+    .intro-content img {
+        width: 100%;
+        margin: 0;
+    }
+
     section {
         padding: 50px 20px;
     }

@@ -401,7 +401,7 @@ footer a:hover {
     .about-section img,
     .about-section .about-text {
         width: 100%;
-        margin: 0;
+        margin: 5;
     }
 
     .subscribe-content input,

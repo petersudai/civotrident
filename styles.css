@@ -385,15 +385,16 @@ footer a:hover {
         margin: 0;
     }
 
-    .intro-content img {
-        width: 100%;
-        margin: 0;
-    }
 
     section {
         padding: 50px 20px;
     }
 
+    .intro-content img {
+        width: 100%;
+        margin: 0;
+    }
+    
     .about-section {
         flex-direction: column;
     }
@@ -401,7 +402,7 @@ footer a:hover {
     .about-section img,
     .about-section .about-text {
         width: 100%;
-        margin: 5;
+        margin: 0;
     }
 
     .subscribe-content input,

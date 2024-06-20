@@ -214,6 +214,16 @@ section#faq {
     background-color: #444;
 }
 
+.faq-item .arrow {
+    font-size: 0.8em; /* Smaller size for the arrow */
+    color: #888; /* Grey color for the arrow */
+    transition: transform 0.3s;
+}
+
+.faq-item.active .arrow {
+    transform: rotate(180deg); /* Rotate the arrow when the answer is shown */
+}
+
 .faq-answer {
     display: none;
     padding: 10px;

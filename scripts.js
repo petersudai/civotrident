@@ -1,5 +1,7 @@
 document.querySelectorAll('.faq-item h3').forEach(item => {
     item.addEventListener('click', () => {
+        const parent = item.parentElement;
+        parent.classList.toggle('active');
         const answer = item.nextElementSibling;
         answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
     });
